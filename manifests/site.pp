@@ -4,4 +4,7 @@ node default {
     content => "This is a test file",
     owner => 'sandu',
   }
+  user {'sandu':
+    ensure => present
+  }
 }
